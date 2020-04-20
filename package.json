@@ -1,0 +1,15 @@
+{
+  "name": "fancontrol",
+  "version": "1.0.0",
+  "description": "Controls a fan for cooling a processor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "james hackett",
+  "license": "ISC",
+  "dependencies": {
+    "@pm2/io": "^4.3.3",
+    "pigpio": "^3.0.0"
+  }
+}
