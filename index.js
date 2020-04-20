@@ -21,7 +21,7 @@ setInterval(() => {
   
   if (temp < 45) {
     fan.pwmWrite(50)
-    Speed.set(50)
+    Speed.set(100)
   } else if (temp > 70) {
     fan.pwmWrite(255)
     Speed.set(255)
