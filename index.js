@@ -1,6 +1,6 @@
 var fs = require("fs");
 const Gpio = require('pigpio').Gpio;
-const fan = new Gpio(18, { mode: Gpio.OUTPUT });
+const fan = new Gpio(14, { mode: Gpio.OUTPUT });
 const io = require('@pm2/io')
 
 const Temperature = io.metric({
